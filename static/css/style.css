@@ -1,0 +1,61 @@
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer {
+    margin-top: auto;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+#videoInfo {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.progress {
+    height: 25px;
+}
+
+.progress-bar {
+    transition: width 0.3s ease;
+}
+
+#downloadHistory .list-group-item {
+    margin-bottom: 10px;
+    border-radius: 8px;
+}
+
+#downloadHistory .list-group-item:hover {
+    background-color: #f8f9fa;
+}
+
+/* 添加以下样式 */
+.card {
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    margin-bottom: 20px;
+}
+
+.card-img-top {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.btn {
+    margin-bottom: 5px;
+}
+
+@media (max-width: 768px) {
+    .btn {
+        margin: 5px 0;
+        width: 100%;
+    }
+}
